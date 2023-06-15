@@ -16,7 +16,7 @@ sudo nano /etc/apache2/sites-available/Laravel-libraray-management-system-ssl.co
 
 <VirtualHost 192.168.10.46:443>
 
-DocumentRoot /var/www/
+DocumentRoot /var/www/Laravel-libraray-management-system/public
 
 SSLEngine on
 
