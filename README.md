@@ -32,6 +32,7 @@ Invalid command 'SSLEngine', perhaps misspelled or defined by a module not inclu
 Action 'configtest' failed." this error occur then
 
 sudo a2enmod ssl
+
 sudo systemctl restart apache2
 
 a2dissite default-ssl.conf
