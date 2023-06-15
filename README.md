@@ -25,7 +25,6 @@ SSLCertificateFile /etc/ssl/certs/librarymanagement.crt
 SSLCertificateKeyFile /etc/ssl/private/librarymanagement.key
 
 servername www.librarymanagement.com
-
 </VirtualHost>
 
 a2ensite Laravel-libraray-management-system-ssl.conf
