@@ -23,7 +23,6 @@ SSLEngine on
 SSLCertificateFile /etc/ssl/certs/librarymanagement.crt
 
 SSLCertificateKeyFile /etc/ssl/private/librarymanagement.key
-
 servername www.librarymanagement.com
 </VirtualHost>
 
