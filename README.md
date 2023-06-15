@@ -15,11 +15,17 @@ sudo chmod -R 775 /var/www/
 sudo nano /etc/apache2/sites-available/Laravel-libraray-management-system-ssl.conf
 
 <VirtualHost 192.168.10.46:443>
+
 DocumentRoot /var/www/
+
 SSLEngine on
+
 SSLCertificateFile /etc/ssl/certs/librarymanagement.crt
+
 SSLCertificateKeyFile /etc/ssl/private/librarymanagement.key
+
 servername www.librarymanagement.com
+
 </VirtualHost>
 
 a2ensite Laravel-libraray-management-system-ssl.conf
